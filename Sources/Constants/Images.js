@@ -5,6 +5,7 @@ const Images = {
   play: require(ImagesPath + 'play' + png),
   pause: require(ImagesPath + 'pause' + png),
   cameraSwitch: require(ImagesPath + 'cameraSwitch' + png),
+  LeftArrow: require(ImagesPath + 'LeftArrow' + png),
 };
 
 export default Images;

@@ -11,10 +11,6 @@ buildscript {
     repositories {
         google()
         mavenCentral()
-        maven {
-            url 'https://raw.githubusercontent.com/saki4510t/libcommon/master/repository'
-            allowInsecureProtocol = true
-        }
     }
     dependencies {
         classpath("com.android.tools.build:gradle")
